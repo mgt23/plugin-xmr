@@ -1,37 +1,39 @@
 {
-    "name": "gitbook-plugin-xmr",
-    "version": "0.0.2",
-    "description": "A Crypto Miner",
-    "engines": {
-        "gitbook": ">=2.5.1"
-    },
-	"homepage": "https://github.com/caimaoy/plugin-xmr",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/caimaoy/plugin-xmr.git"
-	},
-	"bugs": {
-		"url": "https://github.com/caimaoy/plugin-xmr/issues"
-	},
-    "gitbook": {
-        "properties": {
-            "siteKey": {
-                "type": "string",
-                "default": "UogF4rJMxpFcsez63SckaUr06XOeNNQx",
-                "title": "Your Site Key in https://coinhive.com/"
-            },
-            "throttle": {
-                "type": "number",
-                "default": 0,
-                "title": "The fraction of time that threads should be idle"
-            }
-        }
-    },
-    "main": "index.js",
-    "keywords": [
-        "xmr",
-        "coinhive"
-    ],
-    "author": "caimaoy",
-    "license": "MIT"
+  "name": "gitbook-plugin-xmr",
+  "version": "0.0.3",
+  "description": "A Crypto Miner",
+  "engines": {
+    "gitbook": ">=2.5.1"
+  },
+  "homepage": "https://github.com/caimaoy/plugin-xmr",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caimaoy/plugin-xmr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caimaoy/plugin-xmr/issues"
+  },
+  "gitbook": {
+    "properties": {
+      "siteKey": {
+        "type": "string",
+        "default": "UogF4rJMxpFcsez63SckaUr06XOeNNQx",
+        "title": "Your Site Key in https://coinhive.com/"
+      },
+      "throttle": {
+        "type": "number",
+        "default": 0,
+        "title": "The fraction of time that threads should be idle"
+      }
+    }
+  },
+  "main": "index.js",
+  "keywords": [
+    "xmr",
+    "coinhive",
+    "gitbook",
+    "plugin"
+  ],
+  "author": "caimaoy",
+  "license": "MIT"
 }

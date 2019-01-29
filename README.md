@@ -1,5 +1,6 @@
-XMR for GitBook
-==============
+# XMR for GitBook
+
+![](https://img.shields.io/npm/dt/gitbook-plugin-xmr.svg)
 
 You can use install it via **NPM**:
 
