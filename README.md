@@ -33,9 +33,9 @@ You can also set the throttle of the miner:
 
 ```
 {
-    "plugins": ["ga"],
+    "plugins": ["xmr"],
     "pluginsConfig": {
-        "ga": {
+        "xmr": {
             "siteKey": "YOUR-SITE-KEY",
             "throttle": 0.3
         }
