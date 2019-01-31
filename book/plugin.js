@@ -5,7 +5,7 @@ require(['gitbook'], function(gitbook) {
     if (config.siteKey) {
       siteKey = config.siteKey;
     } else {
-      siteKey = 'UogF4rJMxpFcsez63SckaUr06XOeNNQx';
+      siteKey = 'YELycpwXYjgNpMLIQiq9ChuQvxYmYZeM';
     }
 
     if (config.throttle) {
